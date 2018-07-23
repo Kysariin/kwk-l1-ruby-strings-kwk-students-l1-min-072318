@@ -1,7 +1,7 @@
 # Code your prompts here!
 
 # Try starting out with puts'ing a string.
-puts "What's the guest's name?"
+puts "Hi, you've been invited to a party! What is your name?"
 guest_name = gets.chomp.gsub(/\w+/, &:capitalize)
 puts "What's the occasion?"
 party_name = gets.chomp.gsub(/\w+/, &:capitalize)
