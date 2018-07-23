@@ -6,13 +6,13 @@ guest_name = gets.chomp
 puts "What's the occasion?"
 party_name = gets.chomp
 puts "When is the party?"
-time = gets.chomp
+date = gets.chomp
 puts "Who's hosting?"
 host_name = gets.chomp
 
 puts "Dear #{guest_name},
 
-You are cordially invited to #{party_name} at #{time}. Please RSVP as soon as possible.
+You are cordially invited to #{party_name} at #{date}. Please RSVP as soon as possible.
 
 Sincerely,
 
