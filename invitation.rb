@@ -6,7 +6,7 @@ guest_name = gets.chomp.gsub(/\w+/, &:capitalize)
 puts "What's the occasion?"
 party_name = gets.chomp.gsub(/\w+/, &:capitalize)
 puts "When is the party?"
-date = gets.chomp.gsub(/\w+/, &:capitalize)
+time = gets.chomp.gsub(/\w+/, &:capitalize)
 puts "Who's hosting?"
 host_name = gets.chomp.gsub(/\w+/, &:capitalize)
 
